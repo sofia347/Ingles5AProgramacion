@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2, h3, p{
+    font-family:Freestyle Script;
+    font-size: 30px;
+}
+ul{
+    font-family:Freestyle Script;
+    font-size: 30px;
+}
+body{
+    background:"Imagen/arreglo.jpg";
+}
+header.main, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+header nav{
+    background: #F3AEBC;
+    overflow: hidden;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float:left;
+}
+header nav ul li a{
+    padding: 10px 50px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a{
+    background: #F3AEBC ;
+}
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float:left;
+    background:#fff;
+}
+.main .articles .article{
+    padding: 20px;
+    background: #FF334F;
+    margin-bottom: 20px;
+}
+aside{
+    width: 30%;
+    background: #F3AEBC ;
+    float:left; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background: #F3AEBC ;
+    color: rgb(151, 13, 13);
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+    font-family:Freestyle Script;
+    font-size: 30px;
+}
